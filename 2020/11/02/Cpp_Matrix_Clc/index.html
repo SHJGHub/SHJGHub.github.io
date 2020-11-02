@@ -187,11 +187,7 @@
                     <nav class="header-nav">
                         <ul class="social">
                             
-                                <a class="fl github"  target="_blank" href="/xxxxx" title="github">github</a>
-                            
-                                <a class="fl weibo"  target="_blank" href="/xxxxxxxx" title="weibo">weibo</a>
-                            
-                                <a class="fl rss"  target="_blank" href="/atom.xml" title="rss">rss</a>
+                                <a class="fl github"  target="_blank" href="https://github.com/SHJGHub" title="github">github</a>
                             
                         </ul>
                     </nav>
@@ -207,11 +203,7 @@
                 <section class="switch-part switch-part3">
                     <div id="js-friends">
                     
-                      <a target="_blank"  class="main-nav-link switch-friends-link" href="http://blog.csdn.net/baidu_21483933">csdn</a>
-                    
-                      <a target="_blank"  class="main-nav-link switch-friends-link" href="https://segmentfault.com/blog/maocg_web">segmentfault</a>
-                    
-                      <a target="_blank"  class="main-nav-link switch-friends-link" href="http://www.jianshu.com/users/eb37ef89c746/latest_articles">简书</a>
+                      <a target="_blank"  class="main-nav-link switch-friends-link" href="https://blog.csdn.net/weixin_46305307?spm=1011.2124.3001.5113">csdn</a>
                     
                     </div>
                 </section>
@@ -220,7 +212,7 @@
                 
                 <section class="switch-part switch-part4">
                 
-                    <div id="js-aboutme">爱动漫,爱游戏,爱编程,爱运动,爱的太多了!</div>
+                    <div id="js-aboutme">人生得意须尽欢，莫使金樽空对月</div>
                 </section>
                 
             </div>
@@ -265,11 +257,7 @@
             <nav class="header-nav">
                 <div class="social">
                     
-                        <a class="github" target="_blank" href="/xxxxx" title="github">github</a>
-                    
-                        <a class="weibo" target="_blank" href="/xxxxxxxx" title="weibo">weibo</a>
-                    
-                        <a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+                        <a class="github" target="_blank" href="https://github.com/SHJGHub" title="github">github</a>
                     
                 </div>
             </nav>
@@ -420,16 +408,21 @@
 
 
     
-        <section class="changyan" id="comments">
-  <!--<div id="uyan_frame"></div>-->
-  <div id="SOHUCS"></div>
-  <script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js"></script>
-  <script type="text/javascript">
-    window.changyan.api.config({
-      appid: 'xxxx',
-      conf: 'xxxxxxxxx'
-    });
-  </script>
+        <section id="comments">
+<link rel="stylesheet" href="/css/gitment.min.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: 'C++实现矩阵的基本运算', // 可选。默认为 location.href
+  owner: 'SHJGHub',
+  repo: 'git@github.com:SHJGHub/SHJGHub.github.io.git',
+  oauth: {
+    client_id: '72fcc609ae9f1b5e7a3b',
+    client_secret: '61592ebfd0bf9affd9bd75b908beeff0d27a6814',
+  },
+})
+gitment.render('comments')
+</script>
 </section>
     
 
